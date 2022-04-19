@@ -1,5 +1,5 @@
 import React from "react";
-import home from "../assets/media/bball3.png";
+import home from "../assets/media/bball5.png";
 export default function Home() {
   return (
     <div className="home">

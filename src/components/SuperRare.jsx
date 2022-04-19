@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "./Card";
-import super1 from "../assets/media/basketball-icon1.webp";
-import super2 from "../assets/media/basketball-icon1.webp";
-import super3 from "../assets/super3.png";
-import super4 from "../assets/super4.png";
+import super1 from "../assets/media/Bball10.webp";
+import super2 from "../assets/media/Bball10.webp";
+import super3 from "../assets/media/Bball10.webp";
+
 
 export default function SuperRare() {
   const data = [
@@ -31,14 +31,7 @@ export default function SuperRare() {
       tag: 12983,
       time: 1,
     },
-    {
-      image: super4,
-      series: "Ball is life",
-      title: "Brooklyns finest",
-      price: 500.00,
-      tag: 12983,
-      time: 1,
-    },
+   
   ];
   return (
     <div className="super-rare">
