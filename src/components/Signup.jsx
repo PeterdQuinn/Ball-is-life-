@@ -1,5 +1,5 @@
 import React from "react";
-import signup from "../assets/signup.png";
+import signup from "../assets/media/bball8.webp";
 export default function Signup() {
   return (
     <div className="signup">

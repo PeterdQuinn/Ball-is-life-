@@ -9,12 +9,12 @@ export default function Footer() {
       data: ["About", "Terms", "Legal"],
     },
     {
-      title: "NFT",
-      data: ["OpenSea", "Maker", "Learn"],
+      title: "Platforms",
+      data: ["OpenSea", "Solsea", "Magic Eden"],
     },
     {
-      title: "Contact",
-      data: ["Press", "Support"],
+      title: "White paper",
+      data: ["Information", "Nft support"],
     },
     {
       title: "Social",
@@ -58,7 +58,7 @@ export default function Footer() {
       </div>
       <div className="lower">
         <span>&copy; Copyright 2022 NFT</span>
-        <span>Launching August 2022</span>
+        <span>Launching  2022</span>
       </div>
     </footer>
   );

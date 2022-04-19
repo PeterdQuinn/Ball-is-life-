@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
 import icon from "../assets/icon.png";
-import super1 from "../assets/super1.png";
-import release2 from "../assets/release2.png";
+import super1 from "../assets/media/Basketball2.png";
+import release2 from "../assets/media/bball1.png";
 
 export default function Free() {
   return (
@@ -16,9 +16,9 @@ export default function Free() {
           <div className="image">
             <img src={icon} alt="icon" />
           </div>
-          <h2 className="title">Free NFT for early birds</h2>
+          <h2 className="title">Early Birds</h2>
           <p className="description">
-            Sign up today and you'll get a free NFT when we launch
+            For beleving in us early, you get a free mint before date!
           </p>
         </div>
       </div>
@@ -26,9 +26,9 @@ export default function Free() {
         <div className="card1">
           <Card
             image={super1}
-            series="Gloop Series"
-            title="Purple Man"
-            price={2.99}
+            series="Ball is life"
+            title="Backyard Park"
+            price={1000.00}
             tag={12983}
             time={1}
           />
@@ -36,9 +36,9 @@ export default function Free() {
         <div className="card2">
           <Card
             image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
+            series="Ball is life"
+            title="Home Court"
+            price={500.00}
             tag="1094"
             time={2}
           />
